@@ -16,14 +16,14 @@
               type="text"
               id="0"
               class="border-0 border-bottom p-3 mt-3 col-12"
-              (keydown)="changeclass($event)"
+              (input)="changeclass($event)"
             />
             <label [class.ontaping]="addcl[1]" class="notaping">userAge</label>
             <input
               type="text"
               id="1"
               class="border-0 border-bottom p-3 mt-3 col-12"
-              (keydown)="changeclass($event)"
+              (input)="changeclass($event)"
             />
             <label [class.ontaping]="addcl[2]" class="notaping"
               >userEmail</label
@@ -32,7 +32,7 @@
               type="text"
               id="2"
               class="border-0 border-bottom p-3 mt-3 col-12"
-              (keydown)="changeclass($event)"
+              (input)="changeclass($event)"
             />
             <label [class.ontaping]="addcl[3]" class="notaping"
               >userPassword</label
@@ -41,7 +41,7 @@
               type="text"
               id="3"
               class="border-0 border-bottom p-3 mt-3 col-12"
-              (keydown)="changeclass($event)"
+              (input)="changeclass($event)"
             />
           </div>
           <button class="my-4">send Message</button>
